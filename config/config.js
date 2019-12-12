@@ -17,6 +17,10 @@ var config = {
 			"position": "top_bar"
 		},
 		{
+			"module": "MMM-ClockClock",
+			"position": "middle_center"
+		},
+		{
 			"module": "clock",
 			"position": "top_left"
 		},
@@ -95,7 +99,7 @@ var config = {
   		          config: {
 			    apikey: "37565135474b3fb6f2bdc105d6db5a50",
     			    latitude: "36.022096",
-			    longitude: "-79.959460",      
+			    longitude: "-79.959460",
 			    iconset: "2c",
  			    concise: false,
 			    forecastLayout: "tiled",
@@ -118,7 +122,7 @@ var config = {
 			"module": "MMM-Admin-Interface"
 		},
 		{
-			
+			"disabled": true,
 			"module": "MMM-DailyDilbert",
 			"header": "",
 			"position": "bottom_left",
@@ -180,9 +184,9 @@ var config = {
 		"192.168.1.205",
 		"192.168.1.64",
 		"192.168.1.51",
-		"192.168.1.5"	
+		"192.168.1.5"
 
 ]
 };
-/*************** DO NOT EDIT THE LINE BELOW ***************/ 
+/*************** DO NOT EDIT THE LINE BELOW ***************/
 if (typeof module !== 'undefined') {module.exports = config;}
